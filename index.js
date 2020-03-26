@@ -1,11 +1,11 @@
-let string = "strings";
+/*let string = "strings";
 let sentence = "Hello " + "Junshen";
 let sentence2 = " and Ema";
 //console.log(sentence + sentence2);
 let student1 = "Sandra";
 let student2 = "Kelly";
 let courseName = "AP Computer Science";
-let teacherName = "Whalen";
+let teacherName = "Whalen";*/
 /*const longerSentence = 
     student1 +
     " and " +
@@ -31,15 +31,15 @@ let teacherName = "Whalen";
     //let undefined;
 
     //////Boolean Logic
-    let student = "Caroline";
-    let age = 15;
+    /*let student = "Caroline";
+    let age = 15;*/
     //console.log(student === "Caroline");
     //console.log(student === "caroline");
     //console.log(age <= 15 || age > 19);
     //console.log(age <= 15 && age > 19);
 
     /////////If statements
-    let school = "Elementary";
+    /*let school = "Elementary";
     if(school = "Elementary"){
         console.log("You are in k-5")
     } else if(school === "Middle"){
@@ -48,4 +48,34 @@ let teacherName = "Whalen";
         console.log("you are in HS");
     }
     let ron = "Ron";
-    console.log(ron !== "Ema");
+    console.log(ron !== "Ema");*/
+
+    let light = "Green";
+    if(light == "Green"){
+        console.log("Go")
+    } else if(light == "Yellow"){
+        console.log("Caution")
+    } else{
+        console.log("Stop")
+    }
+
+    let Kristy = "lactose intolerant"
+    let baoBao = "loves milk"
+    if(Kristy && baoBao == "lactose intolerant"){
+        console.log("Kristy and Bao Bao buy almond milk")
+    } else if(Kristy || baoBao == "lactose intolerant"){
+        console.log("Kristy and Bao Bao buy milk and almond milk")
+    } else{
+        console.log("Kristy and Bao Bao buy milk")
+    }
+
+    let temperature = "69"
+    if(temperature < 68){
+        console.log("Weather is too damn cold!")
+    } else if(temperature <= 72){
+        console.log("Hmmmmm, this do be perfect weather")
+    } else if(temperature <= 76){
+        console.log("Wowzas feel that warmth on my skin")
+    } else{
+        console.log("Oh jeez, this do be one mega scorcher of a day")
+    }
