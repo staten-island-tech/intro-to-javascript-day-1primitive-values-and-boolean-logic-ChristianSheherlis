@@ -79,3 +79,61 @@ let teacherName = "Whalen";*/
     } else{
         console.log("Oh jeez, this do be one mega scorcher of a day")
     }
+
+    //////////functions
+    /*function test(){
+        console.log("TEST");
+    }
+    test();*/
+
+    /*function argument(name1, name2){
+        console.log(name1, name2);
+    }
+    argument("val", "eric");
+
+    const add = function(x, y){
+        return x + y; //immediately ends the function
+    };
+    console.log(add(10, 3));*/
+    /*const hello = function(){
+        alert("hello");
+    };
+    const bye = function(){
+        alert("Bye");
+    };
+
+    const beatles = function(){
+        hello();
+        bye();
+        hello();
+        bye();
+    };
+    beatles();*/
+
+    /////scope
+    /*const name = "Michael y" //global space
+    function makeFunc(){
+        //closure
+        //function scope
+        const name = "Sarah"; //function scope
+        function displayName(){
+            alert(name); //inner function can access outer function
+        }
+       return displayName; //returning the inner function
+    }
+    const myFunc = makeFunc();
+    myFunc();*/
+
+    ///////arrays
+    const names = ["Diego", "Frid", "Christian", "Valerie", "Haoran", "Brian", "Caroline"];
+    //names.push("Caroline");
+    //let newNames = names.unshift("Brian");
+    names.forEach(name => console.log(name));
+    /*names.filter(somecode).forEach(el () => console.log (el))*/
+    ////spread operator
+    const numbers = [1, 2, 3, 4, 43957690];
+    
+    const add = function(x, y, z, f, g){
+        return x + y + z + f;
+    };
+    console.log(add(...numbers));
