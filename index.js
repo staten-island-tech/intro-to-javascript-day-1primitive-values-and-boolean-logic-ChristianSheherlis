@@ -125,15 +125,23 @@ let teacherName = "Whalen";*/
     myFunc();*/
 
     ///////arrays
-    const names = ["Diego", "Frid", "Christian", "Valerie", "Haoran", "Brian", "Caroline"];
+    //const names = ["Diego", "Frid", "Christian", "Valerie", "Haoran", "Brian", "Caroline"];
     //names.push("Caroline");
     //let newNames = names.unshift("Brian");
-    names.forEach(name => console.log(name));
+    //names.forEach(name => console.log(name));
     /*names.filter(somecode).forEach(el () => console.log (el))*/
     ////spread operator
-    const numbers = [1, 2, 3, 4, 43957690];
+    /*const numbers = [1, 2, 3, 4, 43957690];
     
     const add = function(x, y, z, f, g){
         return x + y + z + f;
     };
-    console.log(add(...numbers));
+    console.log(add(...numbers));*/
+
+    const students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+    const result = students.filter(student => student.length < 5);
+    console.log(result);
+    console.log(students.includes("junshen"));
+    const alan = (element) => "Alan";
+    const savva = (element) => "Savva";
+    console.log(students.some(alan||savva))
